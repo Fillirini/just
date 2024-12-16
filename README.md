@@ -2,6 +2,8 @@
 
 This is the main repository for the Just language infrastructure.
 
+!currently in development!
+
 ## Just Simple (justs)
 
 **Just Simple** is a lightweight, rather even stripped-down version of the **Just** language.
