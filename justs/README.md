@@ -6,7 +6,7 @@
 
 Platform-independent logic, such as *strings*, resides in the "general" directory.
 
-The logic that depends on a specific platform is located in the remaining directories, named after the OS or API of this OS.
+Platform-specific logic, such as the *file system* and *console API*, resides in the remaining directories, named after the OS or that OS's API.
 
 Platform:
 1. **win32** (Windows)
