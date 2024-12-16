@@ -1,7 +1,7 @@
 #include <str.h>
 #include <stdint.h>
 
-uchar_ITER utf8Iter_next(StringIter* self) {
+uchar_ITER utf8Iter_next(u8StringIter* self) {
     const unsigned char *source = self->first;
     size_t dist = self->last - source; // distance to end string
 
@@ -56,7 +56,7 @@ uchar_ITER utf8Iter_next(StringIter* self) {
 }
 
 
-uchar_ITER utf8Iter_peek(StringIter self) {
+uchar_ITER utf8Iter_peek(u8StringIter self) {
     const unsigned char *source = self.first;
     size_t dist = self.last - source; // distance to end string
 
