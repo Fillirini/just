@@ -1,7 +1,7 @@
-# how tokenization works:
+# How tokenization works:
 
-1. the tokenizer is initialized. it **MUST** contain text before it can be used.
-2. higher-level logic uses the tokenizer, requesting one token at a time.
+1. The tokenizer is initialized. it **MUST** contain text before it can be used.
+2. Higher-level logic uses the tokenizer, requesting one token at a time.
 
 Please note that there are tokens in Just that have no meaning without other tokens. For example, a token of type `IntWithPostfix` is meaningless unless it is followed by an `Ident` token (containing, for example, "i32").
 
