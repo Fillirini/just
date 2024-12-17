@@ -12,3 +12,33 @@ Platform:
 ---
 
 The development of a standard API for other platforms is not yet underway, but is planned for Unix.
+
+# Environment structure
+
+The interpreter application must be located in the directory for app, for example `C:\Program Files` on Windows.
+The hierarchy itself looks like this:
+
+```
+Just
+    | justc
+        | settings.config
+        | justc.exe
+        | libraries needed only for JustC
+    | justs
+        | settings.config
+        | justs.exe
+        | libraries needed only for JustS
+    | std
+        | uchar
+          | about.config
+          | uchar.dll
+          | uchar.dll.lib
+          | uchar.h
+        | guilib
+          | about.config
+          | guilib.dll
+          | guilib.dll.lib
+          | guilib.h
+```
+
+The format of the `settings` and `about` configuration files has not yet been finalized, most likely it will be JSON or TOML
