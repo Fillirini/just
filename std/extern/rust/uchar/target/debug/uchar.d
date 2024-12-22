@@ -1,1 +1,0 @@
-C:\Users\filli\Just\github\just\std\extern\rust\uchar\target\debug\uchar.dll: C:\Users\filli\Just\github\just\std\extern\rust\uchar\src\lib.rs C:\Users\filli\Just\github\just\std\extern\rust\uchar\src\predicate.rs
