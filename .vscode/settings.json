@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "str.h": "c",
+        "stdint.h": "c",
+        "tokenizer.h": "c",
+        "filesystem.h": "c",
+        "stdbool.h": "c"
+    }
+}
