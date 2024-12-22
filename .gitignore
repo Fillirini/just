@@ -1,4 +1,4 @@
 .lock
-build\
-justs\includes.txt
-justs\entry.c
+build/
+justs/includes.txt
+justs/entry.c
